@@ -33,3 +33,7 @@ Once you have created a Form, take note of the id of the form and attach to your
    <bpmn:outgoing>Flow_1ht9f2p</bpmn:outgoing>
 </bpmn:startEvent>
 ```
+
+### Basic exercise
+
+See [basic-exercise.md](basic-exercise.md)
