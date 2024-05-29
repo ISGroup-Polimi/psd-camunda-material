@@ -19,8 +19,10 @@ zeebe.client.security.plaintext=true
 
 ### Link a form to a start event
      <bpmn:startEvent id="StartEvent_1">
+      <!-- copy from here -->
       <bpmn:extensionElements>
         <zeebe:formDefinition formId="input_form" />
       </bpmn:extensionElements>
+      <!-- to here -->
       <bpmn:outgoing>Flow_1ht9f2p</bpmn:outgoing>
     </bpmn:startEvent>
