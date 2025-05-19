@@ -1,0 +1,1 @@
+https://docs.camunda.io/docs/components/concepts/messages/
