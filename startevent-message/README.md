@@ -1,6 +1,6 @@
 # Processes that starts after receiving the message
 
-This example refers to a simple process that, once deployes, starts when a message is sent to the orchestrator.
+This example refers to a simple process that, once deployed, starts when a message is sent to the orchestrator.
 
 The message should contain the correlationKey set for the correlation variable `orderid`
 
