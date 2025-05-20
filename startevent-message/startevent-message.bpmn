@@ -13,7 +13,7 @@
     </bpmn:endEvent>
     <bpmn:sequenceFlow id="Flow_0asz103" sourceRef="StartEvent_1" targetRef="Activity_0q68f3b" />
     <bpmn:sequenceFlow id="Flow_12rdy5r" sourceRef="Activity_0q68f3b" targetRef="Event_0sbib46" />
-    <bpmn:startEvent id="StartEvent_1">
+    <bpmn:startEvent id="StartEvent_1" name="orderid">
       <bpmn:outgoing>Flow_0asz103</bpmn:outgoing>
       <bpmn:messageEventDefinition id="MessageEventDefinition_1v48fyv" messageRef="Message_1rfm34m" />
     </bpmn:startEvent>
@@ -21,15 +21,18 @@
   <bpmn:message id="Message_1rfm34m" name="orderid" />
   <bpmndi:BPMNDiagram id="BPMNDiagram_1">
     <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="startevent-message">
-      <bpmndi:BPMNShape id="Event_0sbib46_di" bpmnElement="Event_0sbib46">
-        <dc:Bounds x="422" y="102" width="36" height="36" />
-      </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Activity_1srg59z_di" bpmnElement="Activity_0q68f3b">
         <dc:Bounds x="270" y="80" width="100" height="80" />
         <bpmndi:BPMNLabel />
       </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Event_0sbib46_di" bpmnElement="Event_0sbib46">
+        <dc:Bounds x="422" y="102" width="36" height="36" />
+      </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Event_1qniahq_di" bpmnElement="StartEvent_1">
         <dc:Bounds x="182" y="102" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="183" y="145" width="35" height="14" />
+        </bpmndi:BPMNLabel>
       </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="Flow_0asz103_di" bpmnElement="Flow_0asz103">
         <di:waypoint x="218" y="120" />

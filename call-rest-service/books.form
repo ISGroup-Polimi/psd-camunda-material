@@ -1,0 +1,33 @@
+{
+  "components": [
+    {
+      "text": "# Book selection",
+      "type": "text",
+      "layout": {
+        "row": "Row_0prkl9x",
+        "columns": null
+      },
+      "id": "Field_0ir1tqx"
+    },
+    {
+      "label": "select books",
+      "type": "radio",
+      "layout": {
+        "row": "Row_0prkl9x",
+        "columns": null
+      },
+      "id": "Field_0valhfl",
+      "key": "selected_book",
+      "valuesKey": "books_titles"
+    }
+  ],
+  "type": "default",
+  "id": "books_form",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.6.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.35.0"
+  },
+  "schemaVersion": 18
+}

@@ -24,8 +24,6 @@ Steps:
 
 
 
-### Link a form to a start event
-
-
+### General rule
 
 Once you have created a Form, take note of the id of the form and attach to your start event the highlighted portion of the XML. Please note that the extension must be placed right after the ``<bpmn:startEvent>`` tag

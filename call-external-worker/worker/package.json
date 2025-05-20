@@ -1,0 +1,19 @@
+{
+  "name": "workerbpmn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "worker.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@camunda8/sdk": "^8.7.8"
+  },
+  "devDependencies": {
+    "open": "^9.1.0"
+  }
+}

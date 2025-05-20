@@ -20,7 +20,7 @@ curl -L 'http://localhost:8088/v2/messages/publication' \
 }'
 ```
 
-If any running instances for this model have been started with the same value for the correlation key, then the process should start and end immediately after running a.
+If no running instances for this model have been started with the same value for the correlation key, then the process should start and end immediately after running a.
 
 
 For more information about how to handle messages in Camunda, refer to https://docs.camunda.io/docs/components/concepts/messages/
