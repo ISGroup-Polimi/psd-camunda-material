@@ -16,7 +16,7 @@ curl -L 'http://localhost:8088/v2/messages/publication' \
 -H 'Accept: application/json' \
 -d '{
   "name": "orderid",
-  "correlationKey": "1",
+  "correlationKey": "1"
 }'
 ```
 
