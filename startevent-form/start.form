@@ -1,19 +1,39 @@
 {
   "components": [
     {
-      "label": "orderid",
-      "type": "textfield",
+      "text": "# Give me the starting name",
+      "type": "text",
       "layout": {
-        "row": "Row_0w4elxr",
+        "row": "Row_1mrdmr4",
         "columns": null
       },
-      "id": "Field_0frb924",
-      "key": "orderid",
-      "defaultValue": "1"
+      "id": "Field_0bdlpip"
+    },
+    {
+      "label": "name",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1gouu6v",
+        "columns": null
+      },
+      "id": "Field_0ks0n6y",
+      "key": "name"
+    },
+    {
+      "label": "called",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_11eszz6",
+        "columns": null
+      },
+      "id": "Field_0wqbcbe",
+      "key": "called",
+      "defaultValue": "false",
+      "disabled": true
     }
   ],
   "type": "default",
-  "id": "start_process_form",
+  "id": "start_form_example",
   "executionPlatform": "Camunda Cloud",
   "executionPlatformVersion": "8.6.0",
   "exporter": {
