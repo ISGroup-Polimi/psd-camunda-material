@@ -1,0 +1,33 @@
+{
+  "components": [
+    {
+      "text": "# Show approval",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_1d82zo6",
+        "columns": null
+      },
+      "id": "Field_0r24pb2"
+    },
+    {
+      "label": "approval status",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1p71khx",
+        "columns": null
+      },
+      "id": "Field_1we86bf",
+      "key": "approved"
+    }
+  ],
+  "type": "default",
+  "id": "show-approval",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.5.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.23.0"
+  },
+  "schemaVersion": 16
+}
